@@ -1,7 +1,8 @@
+/* header background img*/
 .bigimg{
     background-image: url(img/20.jpg ) ;
     width: 100%;
-    height: 400px;
+    height: 500px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +10,7 @@
 
     
   }
-  
+  /*header text*/
   .ovarlay{
   
     width: 100%;
@@ -22,8 +23,10 @@
     align-items: center;
     text-align: center;
     font-size: 15px;
+    line-height: 1.6;
   
   }
+  /*header button*/
     input[type="Donate Now"] {
     background-color: #FF5959;
     border: none;
@@ -35,7 +38,9 @@
     text-align: center;
     border-radius: 10px;
     width: 70px;
+    box-shadow: 3px 3px rgb(247, 172, 172) ;
   }
+  /*Nevbar / manu*/
   ul {
     list-style-type: none;
     margin: 0;
@@ -82,6 +87,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /* donate today section*/
   .do-to{
   
     width: 100%;
@@ -94,11 +100,12 @@
     text-align: center;
     font-size: 20px;
     padding-top: 30px;
+   
     
      
   }
 
-
+   /*Selection taka*/
   
   input[type="Taka"] {
     background-color: #FAFAFA;
@@ -114,7 +121,7 @@
     text-align: center;
     font-size: 20px;
     font-size: bold;
-   
+    box-shadow: #dadada;
     
   }
   input[type="HTaka"] {
@@ -131,7 +138,7 @@
     height: 60px;
     text-align: center;
     font-size: 20px;
-    
+    box-shadow: #dadada;
    
     
   }
@@ -144,8 +151,9 @@
     border-bottom: 2px solid #dadada;
     text-align: center;
     color: #dadada;
+    
   }
-
+/* donate plan section*/
   .plan{
   
     width: 100%;
@@ -170,6 +178,7 @@
     background: none;
 
    }
+   /* food shelter and education section*/
    .box1 {
     float: left;
     background-color: #EDF5F6;
@@ -180,6 +189,7 @@
     float: left;
     margin-left:10px ;
     padding-top: 40px;
+    box-shadow: 3px #ced2d3;
   }
   .box2 {
     float: left;
@@ -203,6 +213,7 @@
     
   
   }
+  /*text and pic section*/
   .text {
     float: left;
     background-color:#FFFFFF;
@@ -230,6 +241,7 @@
     text-align: center;
     border-radius: 10px;
     width: 160px;
+    box-shadow: 3px 3px  rgb(247, 160, 160);
   }
   .pic1{
     float: left;
@@ -239,6 +251,7 @@
     
    
   }
+  /*text and pic section*/
   .text2 {
     float: left;
     background-color:#FFFFFF;
@@ -265,13 +278,15 @@
     text-align: center;
     border-radius: 10px;
     width: 160px;
+    box-shadow: 3px 3px rgb(247, 172, 172);
   }
   .pic2{
     float: left;
     padding-left: 25px;
     margin: 40px;
     border-radius: 50px;
-    opacity: 10;
+  
+
   }
 
   .text3 {
@@ -285,6 +300,7 @@
     margin-bottom: 30px;
 
   }
+
   .Sharcebox{
     height: 200px;
     width: 100%;
@@ -299,6 +315,7 @@
     margin-left: 400px;
     margin-top: 30px;
   } 
+  /*email and subscribe section*/
 
   input[type=Email] {
     background-color: #D9D9D9;
@@ -322,6 +339,7 @@
     width: 90px;
     border-radius: 5px;
   }
+  /*footer section*/
  footer{
   width: 100%;
   height: 100px;
@@ -335,7 +353,9 @@
   text-align: center;
   height: 100px;
   border-radius: 5px;
-  padding: 15px;
+  padding: 20px;
   margin-top: 60px;
+  font-family: "Sofia", sans-serif;
+
 }
   
